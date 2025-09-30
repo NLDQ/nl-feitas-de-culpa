@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>"Feitas de Culpa", de Joanna Elmy</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+    <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+
+    <!-- CSS Reset -->
+    <style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+        h1{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:2em;
+			font-style:italic;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h2{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h3{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h4{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.1em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h5{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:14px;
+			font-style:normal;
+			font-weight:normal;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		p{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:165%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 700px) {
+
+            .email-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 700 !important;
+                height: auto !important;
+                margin-left: auto!important;
+                margin-right: auto!important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 700 !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+        
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+                
+        }
+
+    </style>
+    </head>
+    <body bgcolor="#FFFFFF" width="100%" style="margin: 0; padding:0" yahoo="yahoo">
+    <table bgcolor="FFFFFF" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td>
+            
+            <!-- Visually Hidden Preheader Text : BEGIN -->
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">"Feitas de Culpa", de Joanna Elmy</div>
+            <!-- Visually Hidden Preheader Text : END --> 
+            
+            <!-- Cabeçalho : COMEÇO, alterar imagem -->
+            <table align="center" width="100%" class="email-container">
+            <tr>
+                <td align="center" style="font-size: 0.6em; font-weight: normal; line-height: 1em; color: #000000; font-family: sans-serif; padding:10px 0px 0px 0px">Se não conseguir visualizar corretamente este e-mail <a href="https://nldq.github.io/nl-feitas-de-culpa/">clique aqui</a></td>
+			</tr>
+			<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123445&authkey=%21AMxe9px-h8g3JY0&width=700&height=50" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+			<tr>
+				<td style="padding: 0em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://1drv.ms/i/c/a5ece9195a592475/IQR34JWJa-nnTYpHeLfFEzPNAdUYLoyXblcM2cGpy6xTQic?width=700&height=400" alt="&quot;Feitas de Culpa&quot;, de Joanna Elmy." border="0" width="700" align="center" style="width: 100%; max-width: 700px; height: auto;"></td>
+			</tr>
+          </table>
+            <!-- Cabeçalho : FIM --> 
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="700" class="email-container">
+            
+<!-- Livro : COMEÇO-->
+            
+				<tr>
+				<td dir="ltr" align="center" valign="top" width="100%" style="padding: 0px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90.5%">
+					<table align="center" width="100%">
+						<tbody>
+							<tr>
+							<td valign="top" align="center" style="padding:0px 60px 30px 60px;">
+								<h1 style="color:#0a4c34">Feitas de Culpa</h1>
+							<h2>Joanna Elmy</h2>
+								<h5>Tradução de Monika Boneva e Paulo Tiago Jerónimo</h5>
+							<h4>Nas livrarias a 30 de Setembro</h4>
+								<br>
+								<h4 style="font-weight:normal"><strong>O romance estreia da escritora búlgara, já traduzido em 15 idiomas, foi distinguido no seu país com o Prémio Nacional de Primeira Obra. <br>
+								Joanna Elmy estará em Óbidos, dia 17 Outubro, para participar numa conversa com Luísa Sobral, integrada na edição deste ano do Folio.</strong></h4>
+								<p style="text-align:left !important"><br><strong>Yana, uma estudante búlgara</strong> recém-chegada a uma pequena cidade americana, assiste a um acidente de viação entre um carro e uma bicicleta. A condutora da bicicleta é também uma estudante da Europa de Leste que morre no local. Porém, essa morte é irrelevante para as autoridades e imediatamente esquecida, mas, para Yana, é o catalisador que a desperta para a sua condição de imigrante.<br>
+								Nos EUA, onde permanece depois dos estudos, Yana percebe que o Sonho Americano não passa de uma ilusão e começa então a relacionar a sua vida precária com as da mãe e da avó, antes e depois da era do Comunismo.<br><br>
+								<strong>Quando a avó está a morrer</strong>, Yana e a mãe regressam à Bulgária para se encontrarem finalmente como três adultas iguais; e é nesse momento que partilham o sentimento de culpa pelo facto de a liberdade que sempre buscaram ter significado inevitavelmente o sofrimento da geração anterior.<br><br>
+								<strong>Narrado do ponto de vista de três mulheres</strong> de gerações diferentes assombradas pela violência, pelo vício e pela impossibilidade de encontrar um lugar a que possam chamar seu, esta é uma história que coincide com a história contemporânea da Europa de Leste – da ditadura totalitária do regime comunista pós-1944 ao período de transição democrática da década de 1990 e à imigração para o Ocidente – e a da forma como os países desenvolvidos recebem os que os escolhem para viver.</p>
+								<p style="text-align:center"><br><strong>«Uma das estreias mais impactantes que encontrei nos últimos anos. Imperdível.»</strong><br>Gueorgui Gospodinov</p>
+								<p style="text-align:center"><strong>«Corajoso, original, moderno, mordaz, quente e amargo. Uma história sobre tudo e todos os que trazemos dentro de nós, sobre a miséria e o quotidiano do imigrante, sobre a história familiar que arrastamos como prisioneiros de guerra acorrentados pela dor das gerações anteriores.»</strong><br>Svetlozar Zhelev</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			<hr width="91%" color="0a4c34">
+			<br><br>
+<!-- Sobre o autor -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Joanna Elmy." src="https://1drv.ms/i/c/a5ece9195a592475/IQRumFiLZro8S62xGLzCB9QnAR5cRAejE5M74ce_BqvlSFs?width=280&height=420" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p><strong>Joanna Elmy</strong> (1995) é escritora e jornalista. <br>
+							Nasceu em Sófia, na Bulgária, viveu em França, nos Países Baixos e nos EUA.<br>
+							É detentora de dois bacharelatos – em Inglês e em Relações Internacionais, pela Sorbonne – e de um mestrado em Comunicação Política, pela Universidade de Amesterdão. <br>
+							Os seus trabalhos jornalísticos foram publicados em revistas alemãs e neerlandesas e é também crítica literária. <br>
+							Foi bolseira dos Seminários de Ficção de Sozopol, organizados pela Fundação Elizabeth Kostova, na Bulgária, e recebeu a bolsa Per Espera ad Astra em Literatura.<br>
+							Com este seu romance, ganhou em 2022 o Prémio Nacional de Primeira Obra na Bulgária. <br>
+							<em>Feitas de Culpa</em> foi ainda nomeado para diversos prémios literários de prestígio. Atualmente, a autora trabalha no seu segundo romance.
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="0a4c34">
+<br>
+<!-- Capa e especificações -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="&quot;Feitas de Culpa&quot;, de Joanna Elmy." src="https://1drv.ms/i/c/a5ece9195a592475/IQTV8scZLg2ZQpgrSMYAkTMkAY6sy1HtA1SwJxlnnBanKlQ?width=1042&height=1564" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p style="line-height: 250%">
+							Literatura Traduzida<br>
+							360 páginas<br>
+							19,90 Euros<br>
+							ISBN: 978-972-20-8665-3<br>
+							1.ª Edição: Setembro 2025<br>
+							Dom Quixote
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+					<table align="center" width="100%">
+	<tbody>
+		<tr>
+			<td valign="top" align="center" style="padding: 10px">
+				<p style="text-align: center; line-height: 150%">Para mais informações:<br>
+				Rui Breda<br>
+				938 527 410<br></p>
+			</td>
+		</tr>
+		<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123446&authkey=%21AF8CaGSbZcojQpU&width=700&height=125" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+	</tbody>
+					</table>
+                  </table></td>
+              </tr>
+          </table>
+            <!-- Email Body : END --> 
+            
+            <!-- Email Footer : BEGIN -->
+            
+            <!-- Email Footer : END -->
+            
+			</td></tr></table>
+</body>
+</html>
